@@ -10,3 +10,4 @@ for i in range(1, len(file_list)):
     df = pd.DataFrame(data)
     main_dataframe = pd.concat([main_dataframe, df], axis=1)
 print(main_dataframe)
+print(file_list)
